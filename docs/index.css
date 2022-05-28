@@ -1,7 +1,6 @@
 html {
     background-image: url(./images/dewbg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .logo {
@@ -14,13 +13,39 @@ html {
     margin-top: 1rem;
 }
 
+.banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.points {
+    font-size: 72px;
+}
+
+.pointsText {
+    font-size: 35px;
+
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
 .question-img {
-    width: 30%;
-    height: 30%;
+    max-width: 432px;
+    max-height: 299px;
 }
 
 .question-buttons {
     margin-top: 2rem;
+}
+
+.questionText {
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.restartGame {
+    margin-top: 4rem;
 }
 
 #main {

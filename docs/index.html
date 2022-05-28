@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet"> 
@@ -36,14 +37,16 @@
 
         <img src="./images/logo.svg" class="logo" alt="Logo">
 
-        <h1 style="font-size: 72px">{{ points }}</h1>
-        <h1 style="font-size: 35px; margin-top: -1rem; margin-bottom: 2rem;">Points</h1>
+        <img src="./images/banner.png" class="banner" style="z-index: -1;">
+
+        <h1 class="points">{{ points }}</h1>
+        <h1 class="pointsText">Points</h1>
 
         <img v-bind:src="currentQuestion.img" class="question-img" v-bind:alt="currentQuestion.title">
 
         <div v-if="lostGame === false">
             
-            <h1 style="font-size: 30px; margin-top: 2rem;">When did this MTN Dew varient release?</h1>
+            <h1 class="questionText">When was this MTN Dew variant first introduced?</h1>
 
             <div class="buttons is-grouped is-centered question-buttons">
                 <button v-for="answer of currentQuestion.answers" @click="submitAnswer(answer)" class="button is-success is-light is-large mx-3">
@@ -54,7 +57,7 @@
         </div>
 
         <div v-else="lostGame === false">
-            <button @click="restartGame" class="button is-danger is-large" style="margin-top: 4rem;">
+            <button @click="restartGame" class="button is-danger is-large restartGame">
 
                 <span class="icon">
                     <i class="fab fa-solid fa-arrows-rotate"></i>

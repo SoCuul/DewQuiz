@@ -20,5 +20,225 @@
             "2005"
         ],
         "correctAnswer": "2001"
+    },
+    {
+        "img": "https://i.imgur.com/P6nvpZH.png",
+        "title": "Voltage",
+        "answers": [
+            "2004",
+            "2011",
+            "2008",
+            "2009"
+        ],
+        "correctAnswer": "2008"
+    },
+    {
+        "img": "https://i.imgur.com/dzUIjSX.png",
+        "title": "LiveWire",
+        "answers": [
+            "2003",
+            "2007",
+            "2001",
+            "2008"
+        ],
+        "correctAnswer": "2003"
+    },
+    {
+        "img": "https://i.imgur.com/ofgF5mI.png",
+        "title": "Major Melon",
+        "answers": [
+            "2018",
+            "2022",
+            "2019",
+            "2021"
+        ],
+        "correctAnswer": "2021"
+    },
+    {
+        "img": "https://i.imgur.com/Tnxhtms.png",
+        "title": "Spark",
+        "answers": [
+            "2020",
+            "2021",
+            "2022",
+            "2019"
+        ],
+        "correctAnswer": "2020"
+    },
+    {
+        "img": "https://i.imgur.com/Tnxhtms.png",
+        "title": "Spark",
+        "answers": [
+            "2020",
+            "2021",
+            "2022",
+            "2019"
+        ],
+        "correctAnswer": "2020"
+    },
+    {
+        "img": "https://i.imgur.com/3zyQe1F.png",
+        "title": "Purple Thunder",
+        "answers": [
+            "2022",
+            "2021",
+            "2017",
+            "2016"
+        ],
+        "correctAnswer": "2022"
+    },
+    {
+        "img": "https://i.imgur.com/1BNENVa.png",
+        "title": "Pitch Black",
+        "answers": [
+            "2004",
+            "2002",
+            "2007",
+            "2011"
+        ],
+        "correctAnswer": "2004"
+    },
+    {
+        "img": "https://i.imgur.com/xUCBnDF.png",
+        "title": "Real Sugar/Throwback",
+        "answers": [
+            "2009",
+            "2007",
+            "1997",
+            "2012"
+        ],
+        "correctAnswer": "2009"
+    },
+    {
+        "img": "https://i.imgur.com/cYTcika.png",
+        "title": "Flamin' Hot",
+        "answers": [
+            "2021",
+            "2022",
+            "2019",
+            "2020"
+        ],
+        "correctAnswer": "2021"
+    },
+    {
+        "img": "https://i.imgur.com/4akFTCV.png",
+        "title": "Cake Smash",
+        "answers": [
+            "2021",
+            "2020",
+            "2017",
+            "2015"
+        ],
+        "correctAnswer": "2021"
+    },
+    {
+        "img": "https://i.imgur.com/DpI1X0o.png",
+        "title": "Holiday Brew",
+        "answers": [
+            "2016",
+            "2014",
+            "2017",
+            "2018"
+        ],
+        "correctAnswer": "2017"
+    },
+    {
+        "img": "https://i.imgur.com/tHrNHYI.png",
+        "title": "Liberty Brew",
+        "answers": [
+            "2020",
+            "2019",
+            "2021",
+            "2017"
+        ],
+        "correctAnswer": "2019"
+    },
+    {
+        "img": "https://i.imgur.com/PKmnXiq.png",
+        "title": "Merry Mash-Up",
+        "answers": [
+            "2018",
+            "2020",
+            "2016",
+            "2015"
+        ],
+        "correctAnswer": "2018"
+    },
+    {
+        "img": "https://i.imgur.com/tyfuqyE.png",
+        "title": "Sweet Lightning",
+        "answers": [
+            "2019",
+            "2020",
+            "2017",
+            "2014"
+        ],
+        "correctAnswer": "2019"
+    },
+    {
+        "img": "https://i.imgur.com/CWyDpKs.png",
+        "title": "Frost Bite",
+        "answers": [
+            "2019",
+            "2021",
+            "2018",
+            "2020"
+        ],
+        "correctAnswer": "2020"
+    },
+    {
+        "img": "https://i.imgur.com/NmzpKrD.png",
+        "title": "Maui Burst",
+        "answers": [
+            "2018",
+            "2020",
+            "2019",
+            "2016"
+        ],
+        "correctAnswer": "2019"
+    },
+    {
+        "img": "https://i.imgur.com/Tmmtlk9.png",
+        "title": "Berry Monsoon",
+        "answers": [
+            "2019",
+            "2018",
+            "2016",
+            "2020"
+        ],
+        "correctAnswer": "2018"
+    },
+    {
+        "img": "https://i.imgur.com/76rphvM.png",
+        "title": "Uproar",
+        "answers": [
+            "2018",
+            "2017",
+            "2020",
+            "2021"
+        ],
+        "correctAnswer": "2021"
+    },
+    {
+        "img": "https://i.imgur.com/sCbwayG.png",
+        "title": "Thrashed Apple",
+        "answers": [
+            "2019",
+            "2022",
+            "2021",
+            "2020"
+        ],
+        "correctAnswer": "2021"
+    },
+    {
+        "img": "https://i.imgur.com/XauIZnp.png",
+        "title": "White Out",
+        "answers": [
+            "2009",
+            "2013",
+            "2010",
+            "2013"
+        ],
+        "correctAnswer": "2010"
     }
 ]

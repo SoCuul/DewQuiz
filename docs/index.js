@@ -61,7 +61,7 @@ const mainVue = Vue.createApp({
                     this.pendingSubmit = false
 
                     //Notify user
-                    return showToast(`You lost the game with ${this.points} points!`, 'error', 7000)
+                    return showToast(`You lost the game! | Correct Answer: "${this.currentQuestion?.correctAnswer}"`, 'error', 7000)
                 }
 
                 //Correct answer
@@ -75,7 +75,7 @@ const mainVue = Vue.createApp({
                 document.title = `Dew Quiz • ${this.points} Points`
 
                 //Notify user
-                showToast('Correct answer!', 'success')
+                showToast('Correct answer!', 'info', 1500)
 
                 //Generate question
                 return this.newQuestion()
