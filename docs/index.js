@@ -14,7 +14,9 @@ const mainVue = Vue.createApp({
         return {
             points: 0,
             lostGame: false,
+
             questions: [],
+            previousQuestion: null,
 
             currentQuestion: {},
             pendingSubmit: false
@@ -45,7 +47,15 @@ const mainVue = Vue.createApp({
     methods: {
         async newQuestion () {
             //Get random question
-            this.currentQuestion = this.questions[Math.floor(Math.random() * this.questions.length)]
+            const index = Math.floor(Math.random() * this.questions.length)
+            const question = this.questions[index]
+
+            //Check for repeat question
+            if (this.previousQuestion === index) return this.newQuestion()
+
+            //Update variables
+            this.previousQuestion = index
+            this.currentQuestion = question
         },
         async submitAnswer (value) {
             //Check if pending submit

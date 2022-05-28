@@ -33,11 +33,13 @@
 </head>
 <body>
 
-    <div id="main">
-
+    <div id="header">
         <img src="./images/logo.svg" class="logo" alt="Logo">
 
         <img src="./images/banner.png" class="banner" style="z-index: -1;">
+    </div>
+
+    <div id="main">
 
         <h1 class="points">{{ points }}</h1>
         <h1 class="pointsText">Points</h1>
@@ -46,7 +48,7 @@
 
         <div v-if="lostGame === false">
             
-            <h1 class="questionText">When was this MTN Dew variant first introduced?</h1>
+            <h1 class="questionText">{{ currentQuestion.question }}</h1>
 
             <div class="buttons is-grouped is-centered question-buttons">
                 <button v-for="answer of currentQuestion.answers" @click="submitAnswer(answer)" class="button is-success is-light is-large mx-3">
