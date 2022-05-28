@@ -1,0 +1,33 @@
+html {
+    background-image: url(./images/dewbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 15%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-top: 1rem;
+}
+
+.question-img {
+    width: 30%;
+    height: 30%;
+}
+
+.question-buttons {
+    margin-top: 2rem;
+}
+
+#main {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+    font-family: 'Outfit', sans-serif;
+    color: #231f20;
+}

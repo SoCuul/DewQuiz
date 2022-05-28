@@ -1,0 +1,24 @@
+[
+    {
+        "img": "https://i.imgur.com/1bQVcDU.png",
+        "title": "Baja Blast",
+        "answers": [
+            "2014",
+            "2004",
+            "2006",
+            "2009"
+        ],
+        "correctAnswer": "2004"
+    },
+    {
+        "img": "https://i.imgur.com/eCqEb2G.png",
+        "title": "Code Red",
+        "answers": [
+            "1998",
+            "2004",
+            "2001",
+            "2005"
+        ],
+        "correctAnswer": "2001"
+    }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Dew Quiz • 0 Points</title>
+
+    <meta name="robots" content="noindex">
+    <meta content="Dew Quiz" property="og:title">
+    <meta content="A MTN Dew themed quiz." property="og:description">
+    <meta content='https://dewvsdew.com/images/logo.png' property='og:image'>
+    <meta name="theme-color" content="#2ECC71">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="/images/dew-logo.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet"> 
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.31/dist/vue.global.prod.js"></script>
+
+    <!-- Vue Toast -->
+    <script src="https://cdn.jsdelivr.net/npm/vue-toast-notification@3/dist/index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/vue-toast-notification@3/dist/theme-sugar.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="index.js" type="module"></script>
+	
+</head>
+<body>
+
+    <div id="main">
+
+        <img src="./images/logo.svg" class="logo" alt="Logo">
+
+        <h1 style="font-size: 72px">{{ points }}</h1>
+        <h1 style="font-size: 35px; margin-top: -1rem; margin-bottom: 2rem;">Points</h1>
+
+        <img v-bind:src="currentQuestion.img" class="question-img" v-bind:alt="currentQuestion.title">
+
+        <div v-if="lostGame === false">
+            
+            <h1 style="font-size: 30px; margin-top: 2rem;">When did this MTN Dew varient release?</h1>
+
+            <div class="buttons is-grouped is-centered question-buttons">
+                <button v-for="answer of currentQuestion.answers" @click="submitAnswer(answer)" class="button is-success is-light is-large mx-3">
+                    {{ answer }}
+                </button>
+            </div>
+
+        </div>
+
+        <div v-else="lostGame === false">
+            <button @click="restartGame" class="button is-danger is-large" style="margin-top: 4rem;">
+
+                <span class="icon">
+                    <i class="fab fa-solid fa-arrows-rotate"></i>
+                </span>
+                <span>Restart</span>
+                
+            </button>
+        </div>
+
+    </div>
+
+</body>
