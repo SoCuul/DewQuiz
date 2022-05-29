@@ -104,8 +104,8 @@ const mainVue = Vue.createApp({
             //Update title
             document.title = `Dew Quiz • ${this.points} Points`
 
-            //Notify user
-            showToast('Game Restarted. Good Luck!', 'info')
+            //Clear notifications
+            vueToast.clear()
 
             //Generate question
             return this.newQuestion()
