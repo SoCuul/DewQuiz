@@ -1,11 +1,5 @@
 html {
     background-color: #8aca00 !important;
-
-    position: absolute;
-    width: 100%;
-    min-height: 100vh;
-    height: 100vh;
-    top: 0;
 }
 
 .logo {
@@ -25,11 +19,11 @@ html {
 }
 
 .points {
-    font-size: 72px;
+    font-size: 450%;
 }
 
 .pointsText {
-    font-size: 35px;
+    font-size: 220%;
 
     margin-top: -1rem;
     margin-bottom: 2rem;
@@ -44,7 +38,7 @@ html {
 }
 
 .questionText {
-    font-size: 30px;
+    font-size: 190%;
     margin-top: 2rem;
 }
 
