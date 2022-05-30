@@ -33,12 +33,12 @@ html {
     max-height: 18.5rem;
 }
 
-.question-buttons {
+.questionText {
+    font-size: 190%;
     margin-top: 2rem;
 }
 
-.questionText {
-    font-size: 190%;
+.question-buttons {
     margin-top: 2rem;
 }
 
@@ -47,9 +47,13 @@ html {
 }
 
 #main {
-    display: block;
-    margin: auto;
     text-align: center;
+
+    /* Center element vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
     font-family: 'Outfit', sans-serif;
     color: #231f20;
